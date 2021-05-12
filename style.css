@@ -6,6 +6,18 @@
 html,body{
     width: 100%;
 }
-h1{
-    color: aqua;
+
+.side-bar{
+    background-color: #392A95;
+    width: 30%;
+    height: 100%;
+    float: left;
+    position: absolute;
+}
+
+.profile img{
+    width: 100px;
+    height: 100px;
+    border-radius: 35px;
+    padding: 20px;
 }
