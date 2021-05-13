@@ -7,6 +7,10 @@ html,body{
     width: 100%;
 }
 
+.clear{
+    clear: both;
+}
+
 .side-bar{
     background-color: #373377;
     width: 30%;
@@ -45,6 +49,16 @@ html,body{
     text-align: left;
 }
 
+.habilidades h2{
+    color: #BB00C4;
+}
+
+.habilidades ul{
+    font-size: 20px;
+    padding-left: 30px;
+    text-align: left;
+    list-style-type: disc;
+}
 
 .main-section{
     width: 70%;
