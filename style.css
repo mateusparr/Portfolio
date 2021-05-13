@@ -61,6 +61,49 @@ html,body{
 }
 
 .main-section{
-    width: 70%;
+    width: 30%;
+    height: 500px;
     float: right;
+}
+
+.main-section .img1{
+    height: 50px;
+    margin: 0 auto;
+    background-color: #1F004B;
+}
+
+.img1 a{
+    text-decoration: none;
+    color: #BB00C4;
+    text-align: center;
+}
+
+.main-section h3{
+    font-size: 30px;
+    color: #BB00C4;
+    background-color: #1F004B;
+    height: 50px;
+    text-align: center;
+}
+
+.main-section p{
+    background-color: #373377;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+.main-section .podcast-link{
+    background-color: #373377;
+    height: 50px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.podcast-link a{
+    color: #BB00C4;
+    background-color: #1F004B;
+    text-decoration: none;
+    border-radius: 20px;
 }
