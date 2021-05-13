@@ -60,50 +60,56 @@ html,body{
     list-style-type: disc;
 }
 
-.main-section{
+.right-bar{
     width: 30%;
-    height: 500px;
+    height: 795px;
     float: right;
+    position: relative;
+    background-color: #373377;
 }
 
 .main-section .img1{
     height: 50px;
     margin: 0 auto;
+    text-align: center;
     background-color: #1F004B;
 }
 
 .img1 a{
     text-decoration: none;
     color: #BB00C4;
-    text-align: center;
 }
 
 .main-section h3{
     font-size: 30px;
     color: #BB00C4;
     background-color: #1F004B;
-    height: 50px;
+    height: 75px;
     text-align: center;
 }
 
 .main-section p{
-    background-color: #373377;
     height: 50px;
-    font-size: 20px;
-    text-align: center;
+    margin: 50px 50px;
+    font-size: 23px;
+    text-align: left;
     
 }
 
 .main-section .podcast-link{
-    background-color: #373377;
+    position: relative;
+    top: 100px;
+    margin: auto;
     height: 50px;
-    margin: 0 auto;
+    width: 200px;
     text-align: center;
+    background-color: #1F004B;
+    border-radius: 20px;
 }
 
 .podcast-link a{
     color: #BB00C4;
-    background-color: #1F004B;
+    padding-top: 10px;
     text-decoration: none;
     border-radius: 20px;
 }
