@@ -5,6 +5,7 @@
 
 html,body{
     width: 100%;
+    background-color: #373377;
 }
 
 .clear{
@@ -60,9 +61,24 @@ html,body{
     list-style-type: disc;
 }
 
+.habilidades .li1{
+    font-size: 25px;
+}
+
+.habilidades .li2{
+    font-size: 23px;
+}
+
+.habilidades .li3{
+    font-size: 21px;
+}
+.habilidades .li4{
+    font-size: 19px;
+}
+
 .right-bar{
     width: 30%;
-    height: 795px;
+    height: 914px;
     float: right;
     position: relative;
     background-color: #373377;
