@@ -1,64 +1,93 @@
 <!DOCTYPE html>
 <html lang="PT-BR">
+
 <head>
     <title>Meu Portfólio</title>
     <meta charset="UTF-8"/>
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500&display=swap" rel="stylesheet">
 </head>
 
-<div class="side-bar" id="side-bar">
+<body>
 
-        <div class="profile" id="profile">
-            <h1><strong> Mateus Garcia Parreira </strong></h1>
+    <header>
+        <div class="container">
+            <h1>Mateus Garcia Parreira <img src="images/logo.png" alt="dev logo"></h1>
+            <div class="index-menu">
+                <a href="">Home</a>
+                <a href="#Profile">Perfil</a>
+                <a href="">Sobre</a>
+                <a href="">Contato</a>
+                <a href="">Indicações</a>
+            </div><!--index-menu-->
+        </div><!--container-->
+    </header>
+
+    <main>
+        
+            <section class="profile" id="profile">
+                <div class="container">
+
+                <div class="image-bg"><img src="images/profile.jpg" alt="profile image"></div>
+
+                <div class="description-bg">
+                <p>
+                Atualmente estudante de desenvolvimento de software na Trybe,
+                tenho experiências com Engenharia Mecatrônica, Gastronomia, Administração, Medicina.
+                Já morei por um tempo em Nova Iorque e dois anos no Paraguai,
+                experiências as quais me deram muita carga cultural.
+                Hoje meu objetivo é me especializar em desenvolver sistemas e apps
+                que venham facilitar a vida dos usuários e trazer mais acessibilidade.
+                </p>
+                </div><!--description-bg-->
+
+                <div class="clear"></div><!--clear-->
+                </div><!--container-->  
+            </section><!--profile-->
+
+            <section class="favoritos">
+                <div class="container">
+
+                    <h2>Os meus podcasts e sites favoritos</h2>
+                    <br/>
+                    <p>
+                    Tento sempre estar atualizado diante das novidades no mundo da tecnologia
+                    e busco informações nestes sites e podcasts:
+                    </p>
+
+                    <div class="links">
+                    <img src="images/logo-devmedia.png" />
+                    <a href="https://www.devmedia.com.br">DEVmedia</a>
+                    <br/> 
+                    <img src="images/braincast.png" />
+                    <a  href="https://www.b9.com.br/shows/braincast/">Braincast</a> 
+                    <br/>
+                    <img src="images/deschamps.png" />
+                    <a href="https://filipedeschamps.com.br">Felipe Deschamps</a>
+                    <br/>
+                    </div><!--links-->
+
+                </div><!--container-->
+            </section><!--favoritos-->
+    </main>
+
+    <footer>
+        <div class="container">
+            
+            <div class="contato">
+                <br/>
+                <img src="images/in.png"/>      <a href="https://www.linkedin.com/in/mateus-garcia-parreira/" target="_blank">Meu Linkedin</a><br/>
+                <img src="images/whatsapp.png"> <a href="https://api.whatsapp.com/send/?phone=5544988682715&text&app_absent=0" target="_blank">Meu Whatsapp</a><br/>
+                <img src="images/github.png">   <a href="https://github.com/mateusparr" target="_blank"/>Meu Repositório GITHUB</a><br/>
+            </div><!--contato-->
+            
             <br>
-            <br>
-            <img id="profile-img" src="/images/profile.jpg">
-            <h2><strong> Foto de Perfil </strong></h2>
-            <br>
-            <p>Estudande de desenvolvimento Web na Trybe, Brasileiro residente em Maringá-PR. Tenho experiência em área comercial, medicina, Engenharia Mecatrônica e Mêcanica.</p>
-        </div><!--profile-->
+            <p>Maringá, Paraná</p>
+            <h3>Todos os direitos reservados</h3>
 
-        <div class="clear"></div>
+        </div><!--container-->
+    </footer>
 
-        <div class="habilidades" id="habilidades">
-            <br>
-            <h2><strong>Habilidades que Possuo</strong></h2>
-            <br>
-            <ul>
-                <li class="li1">Programação em HTML5 e CSS3</li>
-                <li class="li2">Consultoria comercial</li>
-                <li class="li3">Fotografias e filmagens</li>
-                <li class="li4">Marketing</li>
-            </ul>
-        </div><!--habilidades-->
-
-    </div><!--side-bar-->
-
-
-<div class="right-bar">
-
-<div class="main-section" id="main">
-        <div class="img1">
-             <a href="#profile-img">Imagem de perfil</a>
-        </div><!--img1-->
-    <h3>Meus podcasts preferidos.</h3>
-    <p>Para sempre se manter atualizado como programador é importante 
-    buscar fontes de conteúdos que tragam as principais informações e com a melhor qualidade como o DevCast.</p>
-        <div class="podcast-link">
-             <a href="https://www.devmedia.com.br/devcast/">Link para o blog do DEVMEDIA</a>
-         </div><!--podcast-link-->
-</div><!--main-section-->
-
-<div class="links-index" id="links-index">
-    <br>
-    <a href="#side-bar">Barra lateral</a>
-    <br>
-    <a href="profile">Perfil do Autor</a>
-    <br>
-    <a href="habilidades">Lista de Habilidades</a>
-    <br>
-    <a href="main">Sessão principal</a>
-</div><!--links-index-->
-
-</div><!--Right-bar-->
+</body>
 </html>
