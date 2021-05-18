@@ -95,6 +95,7 @@ header{
      margin: 0 auto;
      border-radius: 20px;
      padding: 30px;
+     margin-bottom: 100px;
      text-align: center;
      background-color: #f01348;
  }
@@ -107,6 +108,8 @@ header{
 
  .favoritos p{
     color: #e2e1e0; 
+    font-size: 18px;
+    font-weight: 100;
     text-align: justify;
  }
 
@@ -130,3 +133,33 @@ header{
     border-radius: 10px;
 }
  
+footer{
+    background-color: #0a1829;
+    text-align: center;
+}
+
+.contato{
+    text-align: center;
+}
+
+.contato a{ 
+    text-decoration: none;
+    color: #e2e1e0;
+}
+
+.contato img{
+    position: relative;
+    top: 7px;
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+}
+
+footer p{
+    color: #e2e1e0;
+}
+
+footer h3{
+    padding: 10px;
+    color: #e2e1e0; 
+}
